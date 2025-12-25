@@ -26,6 +26,7 @@ function BenefitPlanMainMenu(props) {
       .getContribs(SOCIAL_PROTECTION_MAIN_MENU_CONTRIBUTION_KEY)
       .filter((c) => !c.filter || c.filter(props.rights)),
   );
+  return null
 
   return (
     <MainMenuContribution
